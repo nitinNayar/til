@@ -1,0 +1,31 @@
+name: Update Tips Index
+
+on:
+  push:
+    paths:
+      - 'tips/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Run Index Generator
+      run: python scripts/generate_index.py
+      
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name 'TipBot'
+        git config --global user.email 'tipbot@users.noreply.github.com'
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update README index" && git push)
