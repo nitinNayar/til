@@ -58,16 +58,36 @@ This is the "magic" syntax. Instead of guessing `resource_id:1234`, use the wild
 If your ID is `0d1d3078-b9aa-4860-a40b-7e8817964b39`, search:
 `*:0d1d3078-b9aa-4860-a40b-7e8817964b39`
 
-### 4. The Analysis
+![Datadog Wildcard Search](image_43cecd.jpg)
 
-1. **Live Tail:** If you are reproducing this live, ensure you are in "Live Tail" mode to see the log hit the moment you execute the search.
-2. **The Pivot:** Once the log entry appears, click it and look for the **Trace** tab or the "View Trace" button.
-3. This transports you from a single log line to the full APM flame graph, showing exactly which service or database query failed.
+### 4. The Analysis & Pro Tip
+1.  **Live Tail:** If you are reproducing this live, ensure you are in "Live Tail" mode to see the log hit the moment you execute the search.
+2.  **The Pivot:** Once the log entry appears, click it and look for the **Trace** tab or the "View Trace" button.
+3.  This transports you from a single log line to the full APM flame graph, showing exactly which service or database query failed.
+
+> **🔥 Pro Tip: The Quota Hack**
+> If your organization has consumed its daily log indexing quota, historical search will return zero results. **Use Live Tail instead.**
+>
+> Live Tail streams ingestion data in real-time *before* it hits the indexing tier.
+> 1. Open the Log Explorer.
+> 2. Switch the time picker to **"Live Tail"**.
+> 3. Enter your wildcard query (`*:UUID`).
+> 4. Trigger the UI action.
+>
+> You will see the logs appear instantly, bypassing the retention limit block.
 
 ## The Payoff
-
 * **Zero Schema Knowledge Required:** You don't need to ask Engineering "what is this field called in the logs?"
 * **Precision:** You are debugging *your* exact request, not a random request that happened at the same time.
+* **Resilience:** Works even when log retention quotas are exceeded.
 * **Speed:** Reduces mean-time-to-root-cause from ~15 minutes of hunting to ~30 seconds.
 
 > **Gotcha:** The `*:<value>` syntax only works on **indexed fields** (facets) in Datadog. However, high-cardinality IDs (like Trace IDs, Span IDs, and primary User IDs) are almost always indexed by default in mature environments.
+
+## Appendix: Official Docs
+* **Wildcard Search:** [Log Search Syntax](https://docs.datadoghq.com/logs/explorer/search_syntax/)
+    * *Reference for the `*:value` syntax, boolean operators, and facet search.*
+* **Real-Time Debugging:** [Live Tail](https://docs.datadoghq.com/logs/explorer/live_tail/)
+    * *Documentation on streaming logs that bypass indexing retention limits.*
+* **Full-Stack Context:** [Correlating Logs and Traces](https://docs.datadoghq.com/tracing/other_telemetry/connect_logs_and_traces/)
+    * *How to ensure your backend injects the `trace_id` and `span_id` that makes the pivot possible.*
