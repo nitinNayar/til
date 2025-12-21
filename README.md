@@ -16,8 +16,8 @@ variety of languages and technologies. TILs are short Markdown documents (a few 
 ---
 
 ## 📚 The Knowledge Base
-''
-''
+``
+``
 ---
 ### Connect with me
 * [Twitter/X](https://x.com/NitinNayar)
