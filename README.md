@@ -17,10 +17,7 @@ variety of languages and technologies. TILs are short Markdown documents (a few 
 
 ## 📚 The Knowledge Base
 ``
+### 📂 Datadog
+- [Full-Stack Tracing: The Browser-to-Backend Bridge](tips/datadog/browser-to-trace-bridge.md)
+
 ``
----
-### Connect with me
-* [Twitter/X](https://x.com/NitinNayar)
-* [LinkedIn](https://www.linkedin.com/in/nitinnayar/)
-
-
