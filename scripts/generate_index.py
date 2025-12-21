@@ -35,7 +35,7 @@ def generate_markdown():
                 content.append(f"- [{title}]({relative_path})")
             
             content.append("") 
-            
+    print ("\n".join(content))
     return "\n".join(content)
 
 def update_readme():
