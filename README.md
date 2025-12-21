@@ -15,9 +15,12 @@ We constantly learn new things. This is a repo to share those learnings. A colle
 ---
 
 ## 📚 The Knowledge Base
-``
+
 ### 📂 Datadog
 - [Full-Stack Tracing: The Browser-to-Backend Bridge](tips/datadog/browser-to-trace-bridge.md)
 - [Live Tail Debugging in DataDog](tips/datadog/live-tail-debugging.md)
 
-``
+---
+### Connect with me
+* [Twitter/X](https://x.com/NitinNayar)
+* [LinkedIn](https://www.linkedin.com/in/nitinnayar/)
