@@ -2,8 +2,8 @@ import os
 
 ROOT_DIR = 'tips'
 README_PATH = 'README.md'
-START_MARKER = ''
-END_MARKER = ''
+START_MARKER = '\n\n'
+END_MARKER = '\n\n'
 
 def generate_markdown():
     content = []
