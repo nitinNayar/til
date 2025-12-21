@@ -1,9 +1,9 @@
 name: Update Tips Index
 
 on:
-  push:
-    paths:
-      - 'tips/**'
+  # push:
+  #   paths:
+  #     - 'tips/**'
   workflow_dispatch:
 
 permissions:
