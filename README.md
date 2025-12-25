@@ -2,7 +2,7 @@
 
 > Today I Learned
 
-As Solutions Engineers, we constantly learn new things. This is a repo to share those learnings to the broader SE commiunity. A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we've recently learned. These are things that don't really warrant a full blog post. 
+As Solutions Engineers, we constantly learn new things. This is a repo to share those learnings to the broader SE community. A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we've recently learned. These are things that don't really warrant a full blog post. 
 
 Most importantly, this TIL collection is built from a **Solutions Engineer's perspective**, focusing on practical workflows and tools that solve real customer scenarios.
 
@@ -43,7 +43,3 @@ What if your to-do list could show you the negative consequences of procrastinat
 ### Connect with me
 * [Twitter/X](https://x.com/NitinNayar)
 * [LinkedIn](https://www.linkedin.com/in/nitinnayar/)
-
----
-### 📖 Learn More
-* [Why This TIL Exists](docs/why_til.md) - Deep dive into the mission, themes, and philosophy behind this repository
