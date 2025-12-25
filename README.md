@@ -43,7 +43,3 @@ What if your to-do list could show you the negative consequences of procrastinat
 ### Connect with me
 * [Twitter/X](https://x.com/NitinNayar)
 * [LinkedIn](https://www.linkedin.com/in/nitinnayar/)
-
----
-### 📖 Learn More
-* [Why This TIL Exists](docs/why_til.md) - Deep dive into the mission, themes, and philosophy behind this repository
