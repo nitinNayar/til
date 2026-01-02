@@ -39,6 +39,9 @@ What if your to-do list could show you the negative consequences of procrastinat
 - [Live Tail Debugging in DataDog](tips/datadog/live-tail-debugging.md)
 - [The Log-to-Trace Pivot in DataDog ](tips/datadog/logs-vs-traces-pivot.md)
 
+### 📂 Python Dev Workflows
+- [Production-Grade Logging Patterns for AI Agents](tips/python-dev-workflows/production-logging-ai-responses.md)
+
 ---
 ### Connect with me
 * [Twitter/X](https://x.com/NitinNayar)
