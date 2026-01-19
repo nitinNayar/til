@@ -1,4 +1,4 @@
-# Troubleeshooting Application Slowness by understanding Critical Rendering Path: Network Latency vs. Main Thread Execution
+# Troubleshooting Application Slowness by understanding Critical Rendering Path: Network Latency vs. Main Thread Execution
 
 **Date:** 2026-01-19
 **Tags:** #tech-fundamentals, #browser-mechanics, #datadog, #performance-engineering
