@@ -38,6 +38,7 @@ What if your to-do list could show you the negative consequences of procrastinat
 - [Full-Stack Tracing in DataDog: The Browser-to-Backend Bridge](tips/datadog/browser-to-trace-bridge.md)
 - [Live Tail Debugging in DataDog](tips/datadog/live-tail-debugging.md)
 - [The Log-to-Trace Pivot in DataDog ](tips/datadog/logs-vs-traces-pivot.md)
+- [Troubleshooting Application Slowness by understanding Critical Rendering Path: Network Latency vs. Main Thread Execution](tips/datadog/browser-rendering-pipeline.md)
 
 ### 📂 Python Dev Workflows
 - [Production-Grade Logging Patterns for AI Agents](tips/python-dev-workflows/production-logging-ai-responses.md)
