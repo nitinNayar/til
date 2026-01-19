@@ -40,7 +40,7 @@ graph TD
     H --> I[Composite: Layers]
 
     %% Styles
-    style B fill:none,stroke:#fff,stroke-width:2px,stroke-dasharray: 5 5,color:#fff
+    style B fill:none,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5,color:#333
     style A fill:#e1f5fe,stroke:#0277bd,stroke-width:2px,color:#000
     style C fill:#e1f5fe,stroke:#0277bd,stroke-width:2px,color:#000
     style D fill:#d1c4e9,stroke:#5e35b1,stroke-width:2px,color:#000
