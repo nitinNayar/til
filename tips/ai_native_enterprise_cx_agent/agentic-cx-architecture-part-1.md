@@ -1,4 +1,4 @@
-# Engineering Determinism: Why I Built my CX Agent without Frameworks
+# Building an Enterprise CX Agent: Designing for Determinism
 
 **Date:** 2026-01-21
 **Series:** Building an Enterprise CX Agent (Part 1 of 6)
