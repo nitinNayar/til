@@ -34,6 +34,9 @@ What if your to-do list could show you the negative consequences of procrastinat
 
 ## 📚 The Knowledge Base
 
+### 📂 AI Agents & Workflows
+- [Building an Enterprise CX Agent: Part 1 - Engineering Determinism](tips/ai_native_enterprise_cx_agent/agentic-cx-architecture-part-1.md)
+
 ### 📂 Datadog
 - [Full-Stack Tracing in DataDog: The Browser-to-Backend Bridge](tips/datadog/browser-to-trace-bridge.md)
 - [Live Tail Debugging in DataDog](tips/datadog/live-tail-debugging.md)
